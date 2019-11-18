@@ -1,0 +1,354 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Archi
+	Template URI: http://www.hakkani.com
+	Description: Portfoloi template
+	Author: Hakkani Mim
+	Author URI: http://www.Mim_Hakkani.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	    2.1 Logo Area
+		2.1 Menu Area
+
+	3. Generation Section
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #454545;
+	font-weight: 500;
+	background-color: #F5F5F5;
+}
+
+/************** 1. Header-area ************************/
+.header{
+	height: 900px;
+	background-image: url(images/bg_image.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.header-style{
+	padding: 110px 0px;
+}
+.logo-area img{
+	float: left;
+	margin-right: 25px;
+}
+.logo-area p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+
+
+
+/************** 2.2 Navigation-area ************************/
+
+.navbarr{
+	float: right;
+	overflow: hidden;
+
+}
+.navbarr ul{
+	list-style: none;
+
+}
+.navbarr ul li{
+	display: inline-block;
+	text-align: center;
+    border:0px solid #fff;
+}
+.navbarr ul li a{
+	text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border:0px;
+   
+    
+}
+.navbarr ul li a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.head-text{
+	color: #fff;
+	overflow: hidden;
+
+
+}
+.head-text h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 64px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/************** 3.Card Section ************************/
+.card{
+	
+	padding: 50px 10px;
+	margin-top: -172px;
+	height: 530px;
+
+
+}
+.card:hover{
+	box-shadow: 7px 7px 14px #474747;
+}
+.card img{
+	display: block;
+    margin: auto;
+    height: 80px;
+}
+.card-body h2{
+    color: #666666;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 19px 0px 30px 0px;
+}
+.card-body p{
+    color: #858585;
+    font-size: 16px;
+    line-height: 36px;
+    margin-bottom: 36px;
+
+
+}
+.amar-button{
+	margin: 0 auto;
+    text-align: center;
+    width: 148px;
+    display: block;
+}
+.amar-button:hover{
+	background-color: #0078D7!important;
+}
+
+/************** 4.Hellow Section ************************/
+.hellow h2,.project-area h2,.solution-area h2{
+	font-size: 53px;
+	font-weight: 500;
+	color: #2C6998;
+}
+.hellow p{
+    color: #858585;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 17px 0px;
+}
+.hellow-btn {
+    width: 179px;
+    border: 2px solid #4545;
+    border-radius: 23px;
+    transition: 1s;
+    color:silver;
+}
+.hellow-btn:hover{
+	box-shadow: 0px 0px 10px #454545;
+
+}
+
+
+/************Solutions Area*************/
+.solution-area h3 {
+    font-size: 31px;
+    padding: 10px 0px;
+}
+.solution-area p {
+    color: #85857A;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+
+
+
+/*******  project  area design *********/
+.post_box {
+    background-color: #C13226;
+    height: 400px;
+    margin: 50px 0px 0px 0px;
+    background-image: url(images/m1.jpg);
+    background-size: 100% 100%;
+    background-position:center center;
+    transition: 1s;
+    border: 0px;
+
+}
+.post_box2 {
+    background-color: #C13226;
+    height: 400px;
+    margin: 50px 0px 0px 0px;
+    background-image: url(images/m2.jpg);
+    background-size: 100% 100%;
+    background-position:center center;
+    transition: 1s;
+    border: 0px;
+
+}
+.post_box3 {
+    background-color: #C13226;
+    height: 400px;
+    margin: 50px 0px 0px 0px;
+    background-image: url(images/m3.jpg);
+    background-size: 100% 100%;
+    background-position:center center;
+    transition: 1s;
+    border: 0px;
+
+}
+.post_box4 {
+    background-color: #C13226;
+    height: 400px;
+    margin: 50px 0px 0px 0px;
+    background-image: url(images/m4.jpg);
+    background-size: 100% 100%;
+    background-position:center center;
+    transition: 1s;
+    border: 0px;
+
+}
+
+.post_box:hover,.post_box2:hover,.post_box3:hover,.post_box4:hover{
+	background-size: 120% 130%;
+
+}
+.effect{width: 100%;height: 100%;background: transparent;transition: 2s;position: relative;}
+.post_box:hover .effect{
+	background:rgba(0,120,145,0.2);
+	}
+.effect h4{
+	color: transparent;
+	position: absolute;
+	top: 0;
+	margin: auto;
+	transition: 2s;
+	font-size: 25px;
+ }	
+.post_box:hover .effect h4{
+
+	transform:translate(50px,160px) rotate(360deg);
+
+	color: brown;
+	font-family: verdana;
+	font-weight: bold;
+
+}
+.post_box2:hover .effect h4{
+
+	transform:translate(50px,160px) rotate(360deg);
+    color: orange;
+	font-family: arial;
+	font-weight: bold;
+
+}
+.post_box3:hover .effect h4{
+
+	transform:translate(50px,160px) rotate(360deg);
+    color: blue;
+	font-family: arial;
+	font-weight: bold;
+
+}.post_box4:hover .effect h4{
+
+	transform:translate(50px,160px) rotate(360deg);
+    color: violet;
+	font-family: arial;
+	font-weight: bold;
+
+}
+.footer{
+	height: 700px;
+	background-image: url(images/bg_image.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;	
+	position: relative;
+}
+.social-icons{
+	position: relative;
+}
+.social-icons ul{
+	margin: 100px auto;
+	text-align: center;
+
+}
+.social-icons ul li,.social-icons2 ul li{
+	display: inline-block;
+}
+.social-icons ul li a{
+    display: block;
+    margin: 29px 70px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-top: 21px;
+
+}
+.social-icons2 ul{
+	margin: 0px auto;
+	text-align: center;
+
+}
+.social-icons2 ul li a{
+	display: block;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 10px 25px;
+}
+
+.scrolltop{
+    display: block;
+    margin: 50px auto;
+    /* position: fixed; */
+    right: 0;
+    bottom: 100px;
+    left: 0;
+    text-align: center;
+}
+.scrolltop i{
+	font-size: 35px;
+	color: #A5298B;
+	padding-top: 10px;
+	background-color: #fff;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+	position: absolute;
+}
+

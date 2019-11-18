@@ -1,0 +1,96 @@
+/* Styles 
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+.logo-area img{
+	
+	margin: 0 auto;
+	display: block;
+}
+.logo-area p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    padding-top: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.social-icons2 ul li a{
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 15px;
+	margin-bottom: 0px;
+}
+.head-text{
+	color: #fff;
+	overflow: hidden;
+
+
+}
+.head-text h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 54px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+}
+/*  Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+.head-text{
+	color: #fff;
+	overflow: hidden;
+
+
+}
+.head-text h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 54px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    display: block;
+}
+
+ }
+/*  Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+.post_box,.post_box2,.post_box3,.post_box4{
+	margin: 50px 0px 0px 0px;
+}
+.card{
+	padding: 15px 10px;
+    margin-top: 30px;
+    height: 531px;
+}
+
+}
+.card:hover{
+box-shadow: 7px 7px 14px #474747;;
+}
+.head-text h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 64px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+.header{
+	height: 700px;
+}
+
+ }
+/*  Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+.safe{
+
+    font-size: 25px;
+ }}
